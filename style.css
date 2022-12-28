@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body::-webkit-scrollbar { 
+    display: none;  
+    
+}
+  
+
+
+.home-page h1.anim-typewriter {
+    position: relative;
+    font-family: 'Michroma', sans-serif;
+    top: 50%;  
+    width: 24em;
+    color: black;
+    margin: 8% auto;
+    border-right: 2px solid #DAB600;
+    font-size: 500%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+.anim-typewriter{
+    animation: typewriter 2s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 8em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: black
+        (255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+.home-page h2 {
+    position: relative;
+    font-family: 'Michroma', sans-serif;
+    margin-top: -10%;
+    text-align: center;
+    font-size: 300%;
+    color: #DAB600;
+    font-weight: 800;
+}
+
+.meaning {
+   
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: black;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+
+
+
+}
+
+.meaning p{
+    margin-top: 3%;
+    font-size: 100%;
+}
+
+.home-page {
+    padding-top: 1%;
+    padding-bottom: 28%;
+    background-color: #FAFAFA;
+    
+}
+
+
+.sign {
+    font-family:'Qwitcher Grypen', cursive;
+    position: relative;
+    font-size: 330%;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    background-color: #DAB600;
+    margin-left: 75%;
+    margin-top: -15%;
+    height: 100%;
+    
+}
+
+.side-bar {
+    background-color: black;
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    position: fixed;
+    width: 13%;
+    display: flex;
+
+    flex-direction: column;
+    margin-top: -1%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.side-bar li {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+
+.side-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+.side-bar h1{
+    color: white;
+    font-family: 'Qwitcher Grypen', cursive;
+    position: relative;
+    font-size: 420%;
+    margin-top: -150%;
+    margin-left: 15%;
+}
+.side-bar ul{
+    position: relative;
+    margin-top: 65%;
+}
+
+.second-page {
+    margin: auto;
+    
+    padding: 25%;
+    padding-bottom: 15%;
+    background-image: url("C:\\Users\\arund\\OneDrive\\Desktop\\programs\\Web Development\\portfolio\\New Project.jpg");
+    background-repeat: repeat;
+
+    width: 50%;
+    margin-top: -10%;
+    
+
+
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #DAB600;
+    font-family: 'Michroma', sans-serif;
+    justify-content: space-between;
+    margin-top: -30%;
+    padding: 15%;
+    border-radius: 3%;
+
+}
+
+.container-1 p {
+    padding-left: 15%;
+    font-size: 110%;
+}
+
+.container-1 h1 {
+    margin: auto;
+}
+
+
+
+
+.container div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 10%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F0E8DB;
+    padding: 5%;
+    border-radius: 3%;
+    transition: box-shadow 0.1s , transform 0.1s ;
+    
+    
+}
+
+.container div:hover {
+    
+    box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.container div h1 {
+    margin-top: 5%;
+}
+
+.container div p {
+    margin-top: 5%;
+}
+
+.container {
+    position: relative;
+    font-family: 'Michroma', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 10%;
+    flex-basis: 10%;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+}
